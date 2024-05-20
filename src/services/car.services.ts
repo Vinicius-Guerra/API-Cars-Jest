@@ -1,3 +1,4 @@
+import "reflect-metadata";
 import { injectable } from "tsyringe";
 import { prisma } from "../database/prisma";
 import { TCar, TCarCreate, TCarUpdate } from "../interfaces/car.interfaces";
