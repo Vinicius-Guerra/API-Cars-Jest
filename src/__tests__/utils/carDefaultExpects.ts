@@ -1,6 +1,6 @@
 import { TCar, TCarCreate } from "../../interfaces/car.interfaces";
 
-export const productDefaultExpect = (data: TCar, expectData: TCarCreate) => {
+export const carDefaultExpect = (data: TCar, expectData: TCarCreate) => {
     expect(data.name).toBe(expectData.name);
     expect(data.description).toBe(expectData.description);
     expect(data.brand).toBe(expectData.brand);

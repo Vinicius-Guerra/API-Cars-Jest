@@ -58,3 +58,14 @@ export const carListMock = [
         km: 50000
     }
 ]
+
+export const carInvalidCreateBodyMock = {
+    description: "Car description",
+    brand: "Card brand",
+    year: 2023,
+    km: 10000
+}
+
+export const carInvalidUpdateBodyMock = {
+    name: 123
+}

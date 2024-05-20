@@ -1,7 +1,6 @@
 import { CarServices } from "../../services/car.services"
 import { carCreateBodyMock, carMock } from "../mocks/car.mock";
 import { prismaMock } from "../mocks/prisma";
-import { request } from "../utils/request";
 
 describe("Unit test: create car", () => {
     test("create car works correctly", async () => {
