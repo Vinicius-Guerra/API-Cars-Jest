@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "dotenv -e .env.dev -- tsnd --respawn  src/server.ts",
+    "migrate:dev": "dotenv -e .env.dev -- npx prisma migrate dev",
+    "migrate:test": "dotenv -e .env.test -- npx prisma migrate dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
